@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes&display=swap');
+
+.rubrik {
+  font-family: 'Great Vibes', cursive;
+  font-size: 6vh;
+}
+.background-placeholder {
+  background-image: url('https://via.placeholder.com/150/000000/FFFFFF/?text=background');
+  height: auto; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}

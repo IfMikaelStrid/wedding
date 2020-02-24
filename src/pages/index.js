@@ -1,21 +1,61 @@
 import React from "react"
-import { Link } from "gatsby"
+import "../styles/Index.scss"
+// import { Link } from "gatsby"
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+import Header from "../components/header"
+import Intro from "../components/intro"
+import RSVP from "../components/rsvp"
+import Schema from "../components/schema"
+import Info from "../components/info"
+import Gifts from "../components/gifts"
+
+// import Layout from "../components/layout"
+// import Image from "../components/image"
+// import SEO from "../components/seo"
 
 const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+  <div className="parallax">
+    <div className="parallax__group">
+      <div className="parallax__layer parallax__layer--base intro-container">
+        <div className="container text-center justify-text text-white">
+          <Header siteTitle={"Micke och Jossan"} />
+          <Intro />
+        </div>
+      </div>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
+    <div className="parallax__group">
+      <div className="parallax__layer parallax__layer--back rsvp-background">
+        back rsvp
+      </div>
+      <div className="parallax__layer parallax__layer--base rsvp-container">
+        <RSVP />
+      </div>
+    </div>
+    <div className="parallax__group">
+      <div className="parallax__layer parallax__layer--back rsvp-background">
+        back schema
+      </div>
+      <div className="parallax__layer parallax__layer--base rsvp-container">
+        <Schema />
+      </div>
+    </div>
+    <div className="parallax__group">
+      <div className="parallax__layer parallax__layer--back rsvp-background">
+        back info
+      </div>
+      <div className="parallax__layer parallax__layer--base rsvp-container">
+        <Info />
+      </div>
+    </div>
+    <div className="parallax__group">
+      <div className="parallax__layer parallax__layer--back rsvp-background">
+        back gifts
+      </div>
+      <div className="parallax__layer parallax__layer--base rsvp-container">
+        <Gifts />
+      </div>
+    </div>
+  </div>
 )
 
 export default IndexPage
