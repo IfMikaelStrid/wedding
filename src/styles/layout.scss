@@ -60,15 +60,20 @@ html {
 }
 .intro-container {
   background-color: #b4cab4;
+  // background-image: linear-gradient(
+  //   rgba(180, 202, 180, 1) 0%,
+  //   rgba(180, 202, 180, 1) 50%,
+  //   rgba(255, 232, 242, 1) 100%
+  // );
 }
 .intro-background {
   background-color: #fff;
 }
-.rsvp{
-  &-background{
+.rsvp {
+  &-background {
     background-color: #fff;
   }
-  &-container{
+  &-container {
     background-color: #b4cab4;
   }
 }
