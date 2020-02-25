@@ -16,7 +16,7 @@ function Info() {
         <p>Farbror Carl Farbror</p>
         </div>
       </div>
-      <p className="pb-2">
+      <p className="mb-0 pb-5">
         Tal, telegram eller spex? Kontakta{" "}
         <a href="mailto: abc@example.com">toastmasters</a>
       </p>

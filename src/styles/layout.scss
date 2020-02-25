@@ -1,48 +1,48 @@
-.parallax {
-  perspective: 1px;
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
-}
-.parallax__layer {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-.parallax__layer--base {
-  transform: translateZ(0);
-}
-.parallax__layer--deep {
-  transform: translateZ(-2px) scale(3);
-}
-.parallax__layer--back {
-  transform: translateZ(-1px) scale(2);
-}
-.parallax__group {
-  position: relative;
-  height: 100vh;
-  transform-style: preserve-3d;
-}
+// .parallax {
+//   perspective: 1px;
+//   height: 100vh;
+//   overflow-x: hidden;
+//   overflow-y: auto;
+// }
+// .parallax__layer {
+//   position: absolute;
+//   top: 0;
+//   right: 0;
+//   bottom: 0;
+//   left: 0;
+// }
+// .parallax__layer--base {
+//   transform: translateZ(0);
+// }
+// .parallax__layer--deep {
+//   transform: translateZ(-2px) scale(3);
+// }
+// .parallax__layer--back {
+//   transform: translateZ(-1px) scale(2);
+// }
+// .parallax__group {
+//   position: relative;
+//   height: 100vh;
+//   transform-style: preserve-3d;
+// }
 
-.parallax {
-  font-size: 200%;
-}
-.parallax {
-  height: 500px;
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
-  -webkit-perspective: 300px;
-  perspective: 300px;
-}
-.parallax {
-  perspective-origin-x: 100%;
-}
-.parallax__layer {
-  transform-origin-x: 100%;
-}
+// .parallax {
+//   font-size: 200%;
+// }
+// .parallax {
+//   height: 500px;
+//   height: 100vh;
+//   overflow-x: hidden;
+//   overflow-y: auto;
+//   -webkit-perspective: 300px;
+//   perspective: 300px;
+// }
+// .parallax {
+//   perspective-origin-x: 100%;
+// }
+// .parallax__layer {
+//   transform-origin-x: 100%;
+// }
 * {
   margin: 0;
   padding: 0;
@@ -58,22 +58,34 @@ body {
 html {
   color: -internal-root-color;
 }
-.intro-container {
-  background-color: #b4cab4;
-  // background-image: linear-gradient(
-  //   rgba(180, 202, 180, 1) 0%,
-  //   rgba(180, 202, 180, 1) 50%,
-  //   rgba(255, 232, 242, 1) 100%
-  // );
+.intro {
+  &-container {
+    background-color: $bg-primary;
+  }
+  &-background {
+    background-color: #fff;
+  }
 }
-.intro-background {
-  background-color: #fff;
+
+.schema {
+  &-container {
+    background-color: $bg-primary;
+  }
+  &-background {
+    background-color: #fff;
+  }
 }
+
 .rsvp {
   &-background {
     background-color: #fff;
   }
   &-container {
-    background-color: #b4cab4;
+    background-color: $bg-secondary;
+  }
+}
+.dresscode {
+  &-container {
+    background-color: $bg-secondary;
   }
 }

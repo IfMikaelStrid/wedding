@@ -4,8 +4,8 @@ function RSVP() {
   return (
     <div className="container text-center justify-text">
       <div className="p-4 text-white">
-        <h1>RSVP</h1>
-        <p>lorrem ipsum ... ... ...</p>
+        <h1>OSA via länken nedan</h1>
+        <p>OSA senast första april</p>
       </div>
     </div>
   )

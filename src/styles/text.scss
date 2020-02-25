@@ -1,12 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes&display=swap');
+
+.rubrik {
+  font-family: 'Great Vibes', cursive;
+  font-size: 6vh;
+}
+.jumbo-text {
+    font-size: 2em;
+}
+.pretty-text {
+    font-family: 'Great Vibes', cursive;
+}
+
 a.rsvp-link:link{
     font-size: 50px;
-    color: white;
+    color: $font-primary;
 }
 a.rsvp-link:visited{
     font-size: 50px;
-    color: white;
+    color: $font-primary;
 }
 a.rsvp-link:active{
     font-size: 50px;
-    color: white;
+    color: $font-primary;
 }

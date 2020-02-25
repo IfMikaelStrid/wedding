@@ -9,6 +9,7 @@ import RSVP from "../components/rsvp"
 import Schema from "../components/schema"
 import Info from "../components/info"
 import Gifts from "../components/gifts"
+import DressCode from "../components/dresscode"
 
 import img1 from "../images/grodinge1.jpg"
 import img2 from "../images/grodinge2.jpg"
@@ -37,6 +38,7 @@ const image4 =
 
 const IndexPage = () => (
   <>
+    <SEO title="Micke och Jossan Gifter sig" />
     <Parallax bgImage={img1} strength={200}>
       <div style={{ height: 500 }}>
         <div className="intro-container">
@@ -56,7 +58,7 @@ const IndexPage = () => (
           <div
             style={{
               position: "absolute",
-              background: `rgba(180, 202, 180, ${percentage * 1})`,
+              background: `rgba(233, 195, 195, ${percentage * 1})`,
               left: "50%",
               top: "50%",
               borderRadius: "50%",
@@ -74,23 +76,14 @@ const IndexPage = () => (
         </div>
         <div style={insideStyles}>
           <Link className="rsvp-link" to="/page-2">
-            O.S.A
+            OSA
           </Link>
         </div>
       </div>
     </Parallax>
-
-    {/* <Parallax bgImage={image3} blur={{ min: -1, max: 3 }}>
-      <div style={{ height: 500 }}>
-        <div className="rsvp-container">
-          <RSVP />
-        </div>
-      </div>
-    </Parallax> */}
-
     <Parallax bgImage={image2} strength={-200}>
       <div style={{ height: 500 }}>
-        <div className="rsvp-container">
+        <div className="schema-container">
           <Schema />
         </div>
       </div>
@@ -103,9 +96,12 @@ const IndexPage = () => (
       </div>
     </Parallax>
     <Parallax bgImage={image1} strength={200}>
-      <div style={{ height: 500 }}>
-        <div className="rsvp-container">
+      <div style={{ height: 1000 }}>
+        <div className="schema-container">
           <Info />
+        </div>
+        <div className="dresscode-container">
+          <DressCode />
         </div>
       </div>
     </Parallax>
