@@ -17,7 +17,8 @@ import img3 from "../images/grodinge3.jpg"
 
 // import Layout from "../components/layout"
 // import Image from "../components/image"
-// import SEO from "../components/seo"
+import SEO from "../components/seo"
+
 const insideStyles = {
   color: "white",
   padding: 20,
@@ -81,7 +82,7 @@ const IndexPage = () => (
         </div>
       </div>
     </Parallax>
-    <Parallax bgImage={image2} strength={-200}>
+    <Parallax bgImage={image2} strength={500}>
       <div style={{ height: 500 }}>
         <div className="schema-container">
           <Schema />

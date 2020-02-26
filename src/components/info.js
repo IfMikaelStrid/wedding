@@ -9,16 +9,18 @@ function Info() {
       <div className="row d-flex justify-content-center">
         <div className="col m-2">
           <img src={martin} className="toast-portrait" />
-          <p>Farbror Carl Agnes</p>
+          <h3>Farbror Carl Agnes</h3>
+          <p>(Martin Carlberg)</p>
         </div>
         <div className="col m-2">
         <img src={gustaf} className="toast-portrait" />
-        <p>Farbror Carl Farbror</p>
+        <h3>Farbror Carl Farbror</h3>
+        <p>(Gustaf Wessberg)</p>
         </div>
       </div>
       <p className="mb-0 pb-5">
         Tal, telegram eller spex? Kontakta{" "}
-        <a href="mailto: abc@example.com">toastmasters</a>
+        <a className="toast-masters pretty-text" href="mailto:toastmaster@mickeochjossan.se">toastmasters</a>
       </p>
     </div>
   )

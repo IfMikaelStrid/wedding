@@ -1,25 +1,44 @@
-@import url('https://fonts.googleapis.com/css?family=Great+Vibes&display=swap');
-
+@import url("https://fonts.googleapis.com/css?family=Great+Vibes|Pacifico|Taviraj&display=swap");
+// @import url('https://fonts.googleapis.com/css?family=Great+Vibes&display=swap');
+// @import url('https://fonts.googleapis.com/css?family=Taviraj&display=swap');
+body {
+  font-family: "Pacifico";
+  font-family: "Great Vibes";
+  font-family: "Taviraj";
+}
+p,
+h2,
+h3 {
+  font-family: "Taviraj";
+}
 .rubrik {
-  font-family: 'Great Vibes', cursive;
+  font-family: "Great Vibes", cursive;
   font-size: 6vh;
 }
 .jumbo-text {
-    font-size: 2em;
+  font-size: 2em;
 }
 .pretty-text {
-    font-family: 'Great Vibes', cursive;
+  font-family: "Great Vibes", cursive;
 }
 
-a.rsvp-link:link{
-    font-size: 50px;
-    color: $font-primary;
+a.rsvp-link:link {
+  font-size: 50px;
+  color: $font-primary;
 }
-a.rsvp-link:visited{
-    font-size: 50px;
-    color: $font-primary;
+a.rsvp-link:visited {
+  font-size: 50px;
+  color: $font-primary;
 }
-a.rsvp-link:active{
-    font-size: 50px;
-    color: $font-primary;
+a.rsvp-link:active {
+  font-size: 50px;
+  color: $font-primary;
+}
+
+a.toast-masters {
+  color: darkslategrey;
+  text-decoration: none;
+  background-color: transparent;
+  font-size: xx-large;
+  font-weight: bolder;
 }
