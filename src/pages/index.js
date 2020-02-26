@@ -10,7 +10,7 @@ import Schema from "../components/schema"
 import Info from "../components/info"
 import Gifts from "../components/gifts"
 import DressCode from "../components/dresscode"
-
+import Footer from "../components/footer"
 import img1 from "../images/grodinge1.jpg"
 import img2 from "../images/grodinge2.jpg"
 import img3 from "../images/grodinge3.jpg"
@@ -97,13 +97,18 @@ const IndexPage = () => (
       </div>
     </Parallax>
     <Parallax bgImage={image1} strength={200}>
-      <div style={{ height: 1000 }}>
+      <div style={{ height: 1500 }}>
         <div className="schema-container">
           <Info />
         </div>
         <div className="dresscode-container">
           <DressCode />
         </div>
+      </div>
+    </Parallax>
+    <Parallax>
+      <div className="rsvp-container">
+        <Footer />
       </div>
     </Parallax>
   </>
