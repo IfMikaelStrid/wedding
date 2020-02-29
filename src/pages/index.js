@@ -41,7 +41,7 @@ const IndexPage = () => (
   <>
     <SEO title="Micke och Jossan Gifter sig" />
     <Parallax bgImage={img1} strength={200}>
-      <div style={{ height: 500 }}>
+      <div style={{ height: 700 }}>
         <div className="intro-container">
           <div className="container text-center justify-text text-white">
             <Header siteTitle={"Micke och Jossan"} />
