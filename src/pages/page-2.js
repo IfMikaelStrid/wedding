@@ -24,9 +24,10 @@ const SecondPage = () => (
         >
           Loading…
         </iframe>
+        <Link to="/">Tillbaka</Link>
       </div>
 
-    <Link to="/">Tillbaka</Link>
+  
   </>
 )
 
