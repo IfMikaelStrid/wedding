@@ -10,6 +10,7 @@ import Schema from "../components/schema"
 import Info from "../components/info"
 import Gifts from "../components/gifts"
 import DressCode from "../components/dresscode"
+import Children from "../components/Children"
 import Footer from "../components/footer"
 import img1 from "../images/grodinge1.jpg"
 import img2 from "../images/grodinge2.jpg"
@@ -104,10 +105,13 @@ const IndexPage = () => (
         <div className="dresscode-container">
           <DressCode />
         </div>
+        <div className="schema-container">
+          <Children />
+        </div>
       </div>
     </Parallax>
     <Parallax>
-      <div className="rsvp-container">
+      <div className="footer-container">
         <Footer />
       </div>
     </Parallax>

@@ -6,7 +6,7 @@ function DressCode() {
       <div className="p-5 text-white">
         <span className="jumbo-text">Klädkod: </span><span className="jumbo-text pretty-text">Sommarfin</span> 
       </div>
-      <hr />
+      <hr className="mb-0"/>
     </div>
   )
 }
