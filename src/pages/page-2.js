@@ -24,10 +24,10 @@ const SecondPage = () => (
         >
           Loading…
         </iframe>
+      </div>
+      <div className="d-flex">
         <Link to="/">Tillbaka</Link>
       </div>
-
-  
   </>
 )
 
