@@ -11,13 +11,12 @@ import Info from "../components/info"
 import Gifts from "../components/gifts"
 import DressCode from "../components/dresscode"
 import Children from "../components/Children"
+import Grodinge from "../components/grodinge"
 import Footer from "../components/footer"
+
 import img1 from "../images/grodinge1.jpg"
 import img2 from "../images/grodinge2.jpg"
 import img3 from "../images/grodinge3.jpg"
-
-// import Layout from "../components/layout"
-// import Image from "../components/image"
 import SEO from "../components/seo"
 
 const insideStyles = {
@@ -33,14 +32,13 @@ const image1 =
   "https://images.unsplash.com/photo-1498092651296-641e88c3b057?auto=format&fit=crop&w=1778&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"
 const image2 =
   "https://img00.deviantart.net/2bd0/i/2009/276/c/9/magic_forrest_wallpaper_by_goergen.jpg"
-const image3 =
-  "https://brightcove04pmdo-a.akamaihd.net/5104226627001/5104226627001_5297440765001_5280261645001-vs.jpg?pubId=5104226627001&videoId=5280261645001"
-const image4 =
-  "https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/empire-state-building-black-and-white-square-format-john-farnan.jpg"
 
 const IndexPage = () => (
   <>
     <SEO title="Micke och Jossan Gifter sig" />
+    {/* <Parallax bgImage={topimg} strength={200}>
+    <div style={{ height: 1000 }}></div>
+    </Parallax> */}
     <Parallax bgImage={img1} strength={200}>
       <div style={{ height: 700 }}>
         <div className="intro-container">
@@ -97,8 +95,8 @@ const IndexPage = () => (
         </div>
       </div>
     </Parallax>
-    <Parallax bgImage={image1} strength={200}>
-      <div style={{ height: 1500 }}>
+    <Parallax bgImage={image2} strength={200}>
+      <div style={{ height: 1200 }}>
         <div className="schema-container">
           <Info />
         </div>
@@ -110,8 +108,15 @@ const IndexPage = () => (
         </div>
       </div>
     </Parallax>
+    <Parallax bgImage={image1} strength={200}>
+      <div style={{ height: 700 }}>
+        <div className="location-container">
+          <Grodinge />
+        </div>
+      </div>
+    </Parallax>
     <Parallax>
-      <div className="footer-container">
+      <div  style={{ height: 300 }} className="footer-container">
         <Footer />
       </div>
     </Parallax>

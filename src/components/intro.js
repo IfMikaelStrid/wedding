@@ -1,5 +1,5 @@
 import React from "react"
-
+import img from "../images/Portraits/002_square.jpg"
 function Intro() {
   return (
     <div className="m-4 p-4">
