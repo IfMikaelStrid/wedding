@@ -20,7 +20,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `gatsby-Micke-Jossan`,
-        short_name: `Jocke2020`,
+        short_name: `Jocke2021`,
         start_url: `/`,
         background_color: `#e9c3c3`,
         theme_color: `#e9c3c3`,

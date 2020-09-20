@@ -9,6 +9,7 @@ function Footer() {
           <div>
             <img src={img} className="pair-portrait" />
           </div>
+          <p>Vid frågor, tveka inte att höra av er till oss!</p>
           <div>#mickeochjossan2020</div>
         </div>
       </div>

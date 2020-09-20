@@ -116,7 +116,7 @@ const IndexPage = () => (
       </div>
     </Parallax>
     <Parallax>
-      <div  style={{ height: 300 }} className="footer-container">
+      <div  style={{ height: 400 }} className="footer-container">
         <Footer />
       </div>
     </Parallax>
