@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Micke \& Jossan`,
-    description: `Snart är det dags, 13e juni ska vi gifta oss, hoppas ni vill fira denna underbara dag med oss.`,
+    description: `Save the date: 31 Juli 2021`,
     author: `@gatsbyjs`,
   },
   plugins: [
