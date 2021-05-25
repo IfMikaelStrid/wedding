@@ -4,8 +4,7 @@ function Intro() {
   return (
     <div className="m-4 p-4">
       <hr />
-      <p className="pt-2">Vi försöker en gång till!</p>
-      <p>Save the Date: 31/7</p>
+      <p className="pt-2">Uppskjutet till snar framtid</p>
     </div>
   )
 }
